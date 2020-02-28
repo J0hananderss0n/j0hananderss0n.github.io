@@ -1,0 +1,148 @@
+.Header{
+	text-align: left;
+	flex-wrap: wrap;
+	flex-direction: row;
+	font-size: xx-large;
+	width: 100%;
+}
+
+.Picture{
+
+	text-align: right;
+	flex-wrap: wrap;
+	width: 50%;
+	float: left;
+}
+
+.Specifications{
+	text-align: left;
+	flex-wrap: wrap;
+	width: 50%;
+	float: left;
+	font-size: 30px;
+	margin-bottom: 75px;	
+}
+p{
+	margin-bottom: 20px;
+}
+h2{
+	font-size: 30px;
+}
+
+.Product-Description{
+	text-align: left;
+	flex-wrap: wrap;
+	width: 30%;
+	float: right;
+	font-size: 40px;
+	margin-right: 20%
+
+}
+
+.Product-Information-Header{
+	width: 100%;
+ 	overflow: hidden;
+ 	text-align: center;
+ 	font-size: 50px;
+}
+
+.Product-Information{
+	
+	text-align: left;
+	font-size: 30px;
+	margin-right:20%;
+	margin-left: 20%;
+}
+
+.Price{
+	 	text-align: center;
+
+	width: 20%;
+	float:right;
+	font-size: 40px;
+}
+
+#Rating{
+	 	text-align: left;
+
+	width: 30%;
+	height: 40px;
+	float:right;
+	font-size: 30px;
+}
+
+@media (max-width: 1800px){
+
+.Header{
+	text-align: center;
+	flex-direction: column;
+	font-size: xx-large;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+
+}
+
+.Picture{
+
+	text-align: center;
+	width: 100%;
+}
+
+.Specifications{
+	text-align: left;
+	width: 100%;
+	font-size: 30px;
+	margin-left: 20%;
+	margin-bottom: 80px;
+}
+
+.Product-Description{
+	text-align: left;
+	width: 60%;
+	font-size: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.Price{
+	 	text-align: center;
+
+	width: 30%;
+	float:right;
+	font-size: 40px;
+	margin-left: 20%;
+	
+}
+
+#Rating{
+	 	text-align: left;
+
+	width: 30%;
+	float:right;
+	font-size: 30px;
+	margin-right: 20%;
+}
+}
+
+@media (max-width: 1200px){
+.Price{
+	 	text-align: center;
+
+	width: 60%;
+	font-size: 40px;
+	margin-left: 20%;
+	margin-right: 20%;
+}
+
+.Stars{
+	 	text-align: center;
+
+	width: 60%;
+	float:right;
+	margin-right: 20%;
+	margin-left: 20%;
+	margin-bottom: 20px;
+}
+}
+
